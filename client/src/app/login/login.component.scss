@@ -1,0 +1,33 @@
+
+#container{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    #info{
+        background-color:yellow;
+        text-align: center;
+    }
+
+    mat-card{
+        width: 630px;
+    }
+    
+    #form-login{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    
+        button{ 
+        width: 100%
+        }
+    }
+}

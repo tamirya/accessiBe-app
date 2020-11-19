@@ -1,0 +1,92 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  .text-right{
+    text-align:right;
+  }
+
+  #header-wrapper{
+        background: #000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+
+        #left-side{
+            display: flex;
+            justify-content: start;
+
+            #logo {
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                img{
+                    margin-right: 10px;
+                }
+
+                #site-name{
+                }
+            }
+            ul{
+                height: 5vw;
+                margin:0;
+                padding:0;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-left: 10px;
+
+                li{ 
+                    list-style:none;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    height: 93.78%;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 4px solid transparent;
+
+                    span{
+                        padding-top: 8px;
+                    }
+
+                    &.active {
+                        border-bottom: 4px solid #fff;
+                    }
+                }
+            }
+        }
+        #right-side {
+            display: flex;
+            flex: .12;
+            justify-content: center;
+
+            ul{
+                height: 5vw;
+                margin:0;
+                padding:0;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                li{ 
+                    list-style:none;
+                    margin-right: 10px;
+                    cursor: pointer;
+                    height: 93.78%;
+                    display: flex;
+                    align-items: center;
+                    border-bottom: 4px solid transparent;
+
+                    span{
+                        padding-top: 8px;
+                    }
+
+                    &.active {
+                        border-bottom: 4px solid #fff;
+                    }
+                }
+            }
+        }
+  }
