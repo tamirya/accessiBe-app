@@ -7,8 +7,10 @@ const mongoDB = "mongodb://mongo:27017/accessiBe";
 mongoose.connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true});
 // seeding
 require('./seeder/seeder')();
+// cors
 const cors = require('cors');
 const port = 3000;
+// 
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
