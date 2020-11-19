@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Logistics & Supplies",
+        "email": "logistics@gmail.com",
+        "password":"123456",
+        "department":"logistics"
+    },
+    {
+        "name":"Sales & Marketing",
+        "email": "sales@gmail.com",
+        "password":"123456",
+        "department":"sales"
+    }
+]
